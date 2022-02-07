@@ -1,0 +1,14 @@
+{
+  "name": "cypress-worqference",
+  "version": "1.0.0",
+  "description": "cypress project for TTT worqference event",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "kunal ashar",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.7.0"
+  }
+}
