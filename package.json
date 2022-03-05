@@ -4,7 +4,11 @@
   "description": "cypress project for TTT worqference event",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open"
+    "test": "npx cypress open",
+    "test:int": "npx cypress open --config-file cypress/configs/config.integration.json",
+    "test:prod": "npx cypress open --config-file cypress/configs/config.production.json",
+    "test:int:firefox": "npx cypress run --config-file cypress/configs/config.integration.json --browser firefox",
+    "test:int:chrome": "npx cypress run --config-file cypress/configs/config.integration.json --browser chrome"
   },
   "author": "kunal ashar",
   "license": "ISC",

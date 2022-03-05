@@ -3,8 +3,9 @@
   "viewportHeight": 1200,
   "viewportWidth": 800,
   "watchForFileChanges": false,
+  "baseUrl": "http://the-internet.herokuapp.com",
   "env": {
-    "username": "tomsmith",
+    "username": "tomsmithInt",
     "password": "SuperSecretPassword!"
   }
 }
